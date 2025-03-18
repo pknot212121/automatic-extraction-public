@@ -40,5 +40,5 @@ pattern={'sale':r'([s$S]?( )?[pn]( )?(r|_l|n)( )?(z)( )?[eęk\&]( )?(ę)?( )?[d�
          'pomiejscowosc':r'położon(y|ej|a|ą|ych|e)([ \n]jest)?[ \n]w(e)?([ \n]miej[sś][cć]ow[ou]ści)([ \n]wsi)?[ \n]\w+([ \n]\w+)?',
          'słownik_numer_powierzchnia':r'(\d+/)?\d+(,)?([ \n]\((\w+[ \n])*?\w+\))?([ \n])?(obszaru|(o[ \n])?pow\.|(o[ \n])?powierzchni)[ \n]\d+[\.,]\d+'}
 
-folder="D:/AKTY/mien"
-text_file="D:/teksty/mien.txt"
+folder=""
+text_file="tekst.txt"

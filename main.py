@@ -422,13 +422,13 @@ def wyciąganie_obrębu(text_file):
     #                     lines[i]=[istniejący]
     return lines
 
-# lines = [a + b + c + d + e + f for a, b, c,d,e,f in zip(wyciąganie_daty(text_file),wyciąganie_numeru_repetytorium(text_file),wyciąganie_obrębu(text_file),wyciąganie_ceny_całkowitej(text_file),wyciąganie_powierzchni_całkowitej(text_file),wyciąganie_numerów_działek(text_file))]
-# input_data_into_excel("arkusze/b.xlsx",lines)
+lines = [a + b + c + d + e + f for a, b, c,d,e,f in zip(wyciąganie_daty(text_file),wyciąganie_numeru_repetytorium(text_file),wyciąganie_obrębu(text_file),wyciąganie_ceny_całkowitej(text_file),wyciąganie_powierzchni_całkowitej(text_file),wyciąganie_numerów_działek(text_file))]
+input_data_into_excel("output/b.xlsx",lines)
 # print(lines)
 # text=extract_text_from_folder(folder)
 # write_string_to_file(text_file,text)
 # wyciąganie_numerów_działek(text_file)
-wyciąganie_ceny_całkowitej(text_file)
+# wyciąganie_ceny_całkowitej(text_file)
 # wyciąganie_powierzchni_całkowitej(text_file)
 # wyciąganie_obrębu(text_file)
 # wyciąganie_daty(text_file)
